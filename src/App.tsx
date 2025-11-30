@@ -33,7 +33,7 @@ const customComponents = {
 
 function App() {
   const calendar = useCalendarApp({
-    locale: 'zh-CN',
+    locale: 'en-US',
     selectedDate: '2023-12-16',
     defaultView: viewWeek.name,
     views: [viewDay, viewWeek, viewMonthGrid, viewMonthAgenda],
